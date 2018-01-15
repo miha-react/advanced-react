@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 function ErrorField(props) {
   const {input, type, meta:{
@@ -15,7 +14,5 @@ function ErrorField(props) {
   );
 }
 
-ErrorField.propTypes = {};
-ErrorField.defaultProps = {};
 
 export default ErrorField;

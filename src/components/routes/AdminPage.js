@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 
 class AdminPage extends Component {
   render() {
@@ -10,9 +9,6 @@ class AdminPage extends Component {
     );
   }
 }
-
-AdminPage.propTypes = {};
-AdminPage.defaultProps = {};
 
 export default AdminPage;
 

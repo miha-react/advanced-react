@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 
 function Loader(props) {
   return (
@@ -7,8 +7,6 @@ function Loader(props) {
   );
 }
 
-Loader.propTypes = {};
-Loader.defaultProps = {};
 
 export default Loader;
 

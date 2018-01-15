@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import SignInForm from '../auth/SignInForm';
 import SignUpForm from '../auth/SignUpForm';
 import {Route, NavLink} from 'react-router-dom';
@@ -28,9 +27,6 @@ class AuthPage extends Component {
     this.props.signUp(email,password);
     };
 }
-
-AuthPage.propTypes = {};
-AuthPage.defaultProps = {};
 
 export default connect(state => ({
   loading: state[moduleName].loading

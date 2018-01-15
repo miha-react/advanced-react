@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import NewPersonForm from '../people/NewPersonForm';
 import {connect} from 'react-redux';
 import {addPerson} from '../../ducks/people';
@@ -15,7 +14,5 @@ class PersonPage extends Component {
   }
 }
 
-PersonPage.propTypes = {};
-PersonPage.defaultProps = {};
 
 export default connect(null, {addPerson})(PersonPage);

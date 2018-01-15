@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import {Field, reduxForm} from 'redux-form';
 import ErrorField from '../common/ErrorField';
 import emailValidator from 'email-validator';
@@ -29,9 +28,6 @@ function validate({firstName, email}) {
 
   return errors;
 }
-
-NewPersonForm.propTypes = {};
-NewPersonForm.defaultProps = {};
 
 export default reduxForm({
   form: 'person',

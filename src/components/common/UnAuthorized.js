@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 
 class UnAuthorized extends Component {
@@ -11,8 +10,5 @@ class UnAuthorized extends Component {
     );
   }
 }
-
-UnAuthorized.propTypes = {};
-UnAuthorized.defaultProps = {};
 
 export default UnAuthorized;

@@ -1,11 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-
-
-import conferences from './mocks/conferences';
+import conferences from './conferences';
 import firebase from 'firebase';
 
 export function saveEventsToFB() {
@@ -17,7 +10,3 @@ window.runMigration = function () {
     if (!data.val()) saveEventsToFB()
   })
 };
-
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();

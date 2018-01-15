@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+
 import {reduxForm, Field}from 'redux-form';
 
 class SignInForm extends Component {
@@ -25,9 +25,6 @@ class SignInForm extends Component {
     );
   }
 }
-
-SignInForm.propTypes = {};
-SignInForm.defaultProps = {};
 
 export default reduxForm({
   form: 'auth',
